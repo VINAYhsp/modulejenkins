@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 module "my_ec2" {
-  source        = "../modules/ec2"
+  source        = "/modules/ec2"
   ec2_count     = 1
 }
